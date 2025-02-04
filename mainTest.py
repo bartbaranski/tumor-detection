@@ -6,12 +6,10 @@ import numpy as np
 model = load_model('tumor10EpCat.h5')
 
 
-image=cv2.imread('C:\\Users\\baran\\Documents\\tumor_detection\\pred\\pred48.jpg')
-
+image = cv2.imread('pred/pred48.jpg')
 
 
 img = Image.fromarray(image)
-
 
 img = img.resize((64, 64))
 

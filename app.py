@@ -14,7 +14,7 @@ class TumorApp:
         self.root = root
         self.root.title("Tumor Detection (YES/NO)")
 
-        # attempt to load the model
+        # proba zaladowania modelu
         try:
             self.model = load_model(MODEL_PATH)
         except Exception as e:
@@ -24,24 +24,24 @@ class TumorApp:
 
         self.loaded_image = None  # PIL image
 
-        # label to display the image
+        
         self.image_label = tk.Label(self.root, text="No image loaded", bg="gray")
         self.image_label.pack(padx=10, pady=10)
 
-        # Button-load an image
+        
         self.load_button = tk.Button(self.root, text="Load Image", command=self.load_image)
         self.load_button.pack(pady=5)
 
-        # Button
+        
         self.classify_button = tk.Button(self.root, text="Classify", command=self.classify_image, state=tk.DISABLED)
         self.classify_button.pack(pady=5)
 
-        # label  result
+        
         self.result_label = tk.Label(self.root, text="", font=("Helvetica", 14, "bold"))
         self.result_label.pack(pady=10)
 
     def load_image(self):
-        """Loads an image from disk and displays it at DISPLAY_SIZE."""
+        
         file_path = filedialog.askopenfilename(
             title="Select an image",
             filetypes=[("Images", "*.jpg;*.jpeg;*.png;*.bmp;*.tiff"), ("All files", "*.*")]
@@ -63,16 +63,16 @@ class TumorApp:
         display_image = self.loaded_image.resize(DISPLAY_SIZE, Image.Resampling.LANCZOS)
         imgtk = ImageTk.PhotoImage(display_image)
 
-        # update the label
+        # update label
         self.image_label.configure(image=imgtk, text="")
         self.image_label.image = imgtk 
 
-        # enable classify button
+        #  classify button
         self.classify_button.config(state=tk.NORMAL)
         self.result_label.config(text="")
 
     def classify_image(self):
-        """Classifies the loaded image using the model, resizing to IMG_SIZE first."""
+        
         if self.loaded_image is None:
             messagebox.showerror("No image", "Please load an image first.")
             return

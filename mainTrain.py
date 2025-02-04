@@ -9,8 +9,6 @@ from sklearn.model_selection import train_test_split
 from keras import Sequential
 
 
-
-
 from keras._tf_keras.keras.utils import normalize, to_categorical
 from keras._tf_keras.keras.layers import Conv2D, MaxPooling2D, Activation, Dense, Dropout, Flatten, Dense
 
