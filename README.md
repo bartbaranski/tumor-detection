@@ -1,5 +1,8 @@
 <h1>Brain Tumor Detection Project</h1>
 
+<h2>Jupyter File</h2>
+<p>https://github.com/bartbaranski/tumor-detection/braintumor.ipynb</p>
+
 <h2>Description</h2>
 <p>
   This project implements an automated brain tumor detection system using deep learning. It employs a Convolutional Neural Network (CNN) to analyze MRI images and classify them into two categories: <strong>tumor detected</strong> (YES) and <strong>no tumor</strong> (NO). The project comprises three main scripts:
