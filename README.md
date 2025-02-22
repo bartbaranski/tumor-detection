@@ -1,7 +1,7 @@
 <h1>Brain Tumor Detection Project</h1>
 
 <h2>Jupyter File</h2>
-<p>https://github.com/bartbaranski/tumor-detection/braintumor.ipynb</p>
+<p>https://github.com/bartbaranski/tumor-detection/braintumor.html</p>
 
 <h2>Description</h2>
 <p>
