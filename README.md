@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Brain Tumor Detection Project</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-      }
-      h1, h2 {
-        color: #333;
-      }
-      code {
-        background-color: #f4f4f4;
-        padding: 2px 4px;
-        border-radius: 4px;
-      }
-      ul, ol {
-        margin-left: 20px;
-      }
-    </style>
+
   </head>
   <body>
     <h1>Brain Tumor Detection Project</h1>
