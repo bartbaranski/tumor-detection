@@ -4,7 +4,7 @@
 <p></p>
 
 <h2>Jupyter File</h2>
-<p>https://bartbaranski.github.io/tumor-detection/braintumor.html</p>
+<p>https://bartbaranski.github.io/tumor-detection/braintumor.htm</p>
 
 <h2>Description</h2>
 <p>
