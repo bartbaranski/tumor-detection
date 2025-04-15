@@ -1,7 +1,7 @@
 <h1>Deep Learning for Automated Brain Tumor Detection in MRI Images</h1>
 
 <h2>Conference Poster -  6th Polish Conference on Artificial Intelligence, PP-RAI 2025, 7-9 April 2025, Katowice</h2>
-<p></p>
+<p>https://bartbaranski.github.io/tumor-detection/MRI_tumor_poster_bb.pdf</p>
 
 <h2>Jupyter File</h2>
 <p>https://bartbaranski.github.io/tumor-detection/braintumor.html</p>
